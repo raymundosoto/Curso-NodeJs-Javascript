@@ -1,5 +1,8 @@
 # Repositorio del curso de NodeJs para el Diplomado Saumsung Innovation Campus
 
+![imagen](https://user-images.githubusercontent.com/72757419/200454208-121a7db6-fea2-42bd-a3df-8508767195de.png)
+
+
 ## ¿Qué es NodeJs?
 
 Node.js es un entorno de tiempo de ejecución de JavaScript (de ahí su terminación en .js haciendo alusión al lenguaje JavaScript). Este entorno de tiempo de ejecución en tiempo real incluye todo lo que se necesita para ejecutar un programa escrito en JavaScript.
