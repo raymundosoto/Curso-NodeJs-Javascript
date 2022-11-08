@@ -1,5 +1,6 @@
 var express = require('express');
 var app = express();
+var archivo = require('fs')
 const ruta = require('path');
 app.use(express.json());
 app.use(express.urlencoded());
@@ -17,6 +18,13 @@ app.post('/respuesta', function(req, res) {
     let t = req.body.temperatura;
     let h = req.body.humedad;
     let CO2 = req.body.humedad;
+    archivo.writeFile('datos_t.txt', t, (err)=>{
+        if (err){
+            console.log("error")
+        } else {
+            console.log("Tempertura guardada")
+        }
+    });
     res.send("La temperatura es: " + t + ", La humedad es:" + h + "La concentración de CO es: "+ CO2);
 });
 
